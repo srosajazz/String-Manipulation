@@ -1,3 +1,5 @@
+//Problem 1: Given a positive String => "123"
+//Given n = "123", return integer => 1234 Function: StringToNum(String s) 
 
 class Main {
     public static void main(String[] args) {
@@ -10,14 +12,14 @@ class Main {
             System.out.println("s.charAt(" + i + ") = " + s.charAt(i));
 
             int num = s.charAt(i) - '0';
-            System.out.println("num = + num");
-
             n = n * 10 + num;
-
-            System.out.println("n=" + n);
-            System.out.println();
         }
         return n;
     }
-
 }
+
+// =====Output=========
+// s.charAt(0) = 1
+// s.charAt(1) = 2
+// s.charAt(2) = 3
+// 123
