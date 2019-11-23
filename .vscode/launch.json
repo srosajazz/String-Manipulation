@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution2",
+            "request": "launch",
+            "mainClass": "Solution2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - solution2",
+            "request": "launch",
+            "mainClass": "solution2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution02",
+            "request": "launch",
+            "mainClass": "Solution02"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solution",
             "request": "launch",
             "mainClass": "Solution"
