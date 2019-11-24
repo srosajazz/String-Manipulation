@@ -1,6 +1,7 @@
 class ReverseString {
     public static void main(String[] args) {
 
+        // initialize the String
         String str = "Hello World";
 
         String s[] = str.split("");
